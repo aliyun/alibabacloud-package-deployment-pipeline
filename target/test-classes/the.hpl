@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Group-Id: com.aliyun.jenkins
+Short-Name: alicloud-ess-pipeline-plugin
+Long-Name: Pipeline: Alibabacloud Elastic Package Deployment
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0-SNAPSHOT (private-89637ab5-nancy)
+Hudson-Version: 2.190.1
+Jenkins-Version: 2.190.1
+Plugin-Dependencies: workflow-step-api:2.12
+Plugin-Developers: Linan Zhang:linan.zln:wb-zln530580@alibaba-inc.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/alibabacloud-package-deplo
+ yment-pipeline
+Libraries: /Users/nancy/Documents/all/rr/publisher/alibabacloud-packag
+ e-deployment-pipeline/src/main/resources,/Users/nancy/Documents/all/r
+ r/publisher/alibabacloud-package-deployment-pipeline/target/classes,/
+ Users/nancy/.m2/repository/com/alibaba/fastjson/1.2.73/fastjson-1.2.7
+ 3.jar,/Users/nancy/.m2/repository/com/aliyun/oss/aliyun-sdk-oss/3.16.
+ 1/aliyun-sdk-oss-3.16.1.jar,/Users/nancy/.m2/repository/com/aliyun/al
+ iyun-java-sdk-core/4.5.10/aliyun-java-sdk-core-4.5.10.jar,/Users/nanc
+ y/.m2/repository/com/aliyun/aliyun-java-sdk-kms/2.11.0/aliyun-java-sd
+ k-kms-2.11.0.jar,/Users/nancy/.m2/repository/com/aliyun/aliyun-java-s
+ dk-oos/1.5.10/aliyun-java-sdk-oos-1.5.10.jar,/Users/nancy/.m2/reposit
+ ory/com/aliyun/aliyun-java-sdk-ram/3.1.0/aliyun-java-sdk-ram-3.1.0.ja
+ r,/Users/nancy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.
+ 8.9.jar,/Users/nancy/.m2/repository/io/opentracing/opentracing-api/0.
+ 33.0/opentracing-api-0.33.0.jar,/Users/nancy/.m2/repository/io/opentr
+ acing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar,/Users/nanc
+ y/.m2/repository/io/opentracing/opentracing-util/0.33.0/opentracing-u
+ til-0.33.0.jar,/Users/nancy/.m2/repository/javax/activation/javax.act
+ ivation-api/1.2.0/javax.activation-api-1.2.0.jar,/Users/nancy/.m2/rep
+ ository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar,/Users/nancy
+ /.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclien
+ t-4.5.13.jar,/Users/nancy/.m2/repository/org/apache/httpcomponents/ht
+ tpcore/4.4.13/httpcore-4.4.13.jar,/Users/nancy/.m2/repository/org/cod
+ ehaus/jettison/jettison/1.5.2/jettison-1.5.2.jar,/Users/nancy/.m2/rep
+ ository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar,/Users/nancy/.m2/reposi
+ tory/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime
+ .jar,/Users/nancy/.m2/repository/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1
+ .jar
+Resource-Path: /Users/nancy/Documents/all/rr/publisher/alibabacloud-pa
+ ckage-deployment-pipeline/src/main/webapp
+

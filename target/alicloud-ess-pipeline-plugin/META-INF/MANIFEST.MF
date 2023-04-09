@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Built-By: nancy
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_271
+Extension-Name: alicloud-ess-pipeline-plugin
+Specification-Title: This plugins adds Jenkins pipeline steps to inter
+ act with the Aliyun OSS and OOS API
+Implementation-Title: alicloud-ess-pipeline-plugin
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: com.aliyun.jenkins
+Short-Name: alicloud-ess-pipeline-plugin
+Long-Name: Pipeline: Alibabacloud Elastic Package Deployment
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0-SNAPSHOT (private-89637ab5-nancy)
+Hudson-Version: 2.190.1
+Jenkins-Version: 2.190.1
+Plugin-Dependencies: workflow-step-api:2.12
+Plugin-Developers: Linan Zhang:linan.zln:wb-zln530580@alibaba-inc.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/alibabacloud-package-deplo
+ yment-pipeline
+

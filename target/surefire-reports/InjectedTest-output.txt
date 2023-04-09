@@ -1,0 +1,75 @@
+Running tests for com.aliyun.jenkins:alicloud-ess-pipeline-plugin:1.0-SNAPSHOT
+Apr 09, 2023 12:03:55 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @417ms to org.eclipse.jetty.util.log.Slf4jLog
+Apr 09, 2023 12:03:56 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Exploding /Users/nancy/.m2/repository/org/jenkins-ci/main/jenkins-war/2.190.1/jenkins-war-2.190.1.war into /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/jenkins-for-test
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_271-b09
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: node0 Scavenging every 660000ms
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@24fb6a80{Jenkins v2.190.1,/,file:///Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/jenkins-for-test/,AVAILABLE}{/Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/jenkins-for-test}
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@75d0911a{HTTP/1.1, (http/1.1)}{localhost:63211}
+Apr 09, 2023 12:04:00 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @5595ms
+Apr 09, 2023 12:04:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Apr 09, 2023 12:04:02 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/tmp/jenkins1497017486712264391/plugins/bouncycastle-api.jpi
+Apr 09, 2023 12:04:02 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/tmp/jenkins1497017486712264391/plugins/command-launcher.jpi
+Apr 09, 2023 12:04:02 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/tmp/jenkins1497017486712264391/plugins/jdk-tool.jpi
+Apr 09, 2023 12:04:02 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/tmp/jenkins1497017486712264391/plugins/trilead-api.jpi
+Apr 09, 2023 12:04:02 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/tmp/jenkins1497017486712264391/plugins/script-security.jpi
+Apr 09, 2023 12:04:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Apr 09, 2023 12:04:02 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Initializing Bouncy Castle security provider.
+Apr 09, 2023 12:04:03 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Bouncy Castle security provider initialized.
+Apr 09, 2023 12:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Apr 09, 2023 12:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Apr 09, 2023 12:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Apr 09, 2023 12:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Apr 09, 2023 12:04:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_271-b09
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: node0 Scavenging every 660000ms
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@1e8823d2{/,null,AVAILABLE}
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@76b0ae1b{HTTP/1.1, (http/1.1)}{0.0.0.0:63218}
+Apr 09, 2023 12:04:06 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @10776ms
+Apr 09, 2023 12:04:08 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@75d0911a{HTTP/1.1, (http/1.1)}{localhost:0}
+Apr 09, 2023 12:04:08 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: node0 Stopped scavenging
+Apr 09, 2023 12:04:08 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@24fb6a80{Jenkins v2.190.1,/,file:///Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/jenkins-for-test/,UNAVAILABLE}{/Users/nancy/Documents/all/rr/publisher/alibabacloud-package-deployment-pipeline/target/jenkins-for-test}
+Apr 09, 2023 12:04:08 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Apr 09, 2023 12:04:13 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

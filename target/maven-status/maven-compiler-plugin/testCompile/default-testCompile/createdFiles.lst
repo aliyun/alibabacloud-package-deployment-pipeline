@@ -1,0 +1,4 @@
+InjectedTest.class
+org/jenkinsci/plugins/OosStatusQueryStepTest.class
+org/jenkinsci/plugins/OosExecuteNotifyStepTest.class
+org/jenkinsci/plugins/OssUploadAndOosExecStepTest.class

@@ -1,0 +1,5 @@
+# informational; use java -jar sezpoz.jar to see authoritative contents
+org.jenkinsci.plugins.OosExecuteNotifyStep$DescriptorImpl
+org.jenkinsci.plugins.OosStatusQueryStep$DescriptorImpl
+org.jenkinsci.plugins.OssUploadAndOosExecStep$DescriptorImpl
+org.jenkinsci.plugins.PluginImpl
