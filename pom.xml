@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>alibabacloud-package-deployment-pipeline</artifactId>
+    <artifactId>alibabacloud-package-deploy-pipeline</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
@@ -35,6 +35,8 @@
     </developers>
     <scm>
         <connection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+        <url>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+        <developerConnection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin</developerConnection>
     </scm>
     <dependencies>
         <dependency>
