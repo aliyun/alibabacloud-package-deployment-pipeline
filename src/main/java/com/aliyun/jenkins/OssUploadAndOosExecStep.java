@@ -15,13 +15,16 @@ import hudson.FilePath;
 import hudson.Util;
 import hudson.model.Run;
 import hudson.model.TaskListener;
+import hudson.security.Permission;
 import hudson.util.FormValidation;
 import hudson.util.ListBoxModel;
+import jenkins.model.Jenkins;
 import org.apache.commons.lang.StringUtils;
 
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
+import org.kohsuke.stapler.interceptor.RequirePOST;
 
 import javax.annotation.Nonnull;
 import javax.servlet.ServletException;
@@ -204,6 +207,7 @@ public class OssUploadAndOosExecStep extends Step {
             return model;
         }
 
+        @RequirePOST
         public FormValidation doCheckObjectName(@QueryParameter String objectName) {
             if (objectName.startsWith("/"))
                 return FormValidation.error("objectName can not start with '/'");
