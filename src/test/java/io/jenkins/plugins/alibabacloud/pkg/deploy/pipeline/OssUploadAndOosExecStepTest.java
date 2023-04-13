@@ -1,4 +1,4 @@
-package com.aliyun.jenkins;
+package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
 
 import org.junit.Assert;
 import org.junit.Test;

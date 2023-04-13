@@ -1,19 +1,18 @@
-package com.aliyun.jenkins;
+package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
 
-import com.aliyun.jenkins.utils.AliyunClientFactory;
-import com.aliyun.jenkins.utils.Status;
-import com.aliyun.jenkins.utils.StepUtils;
+
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.oos.model.v20190601.CancelExecutionRequest;
 import com.aliyuncs.oos.model.v20190601.ListExecutionsRequest;
 import com.aliyuncs.oos.model.v20190601.ListExecutionsResponse;
 import com.aliyuncs.oos.model.v20190601.NotifyExecutionRequest;
 import hudson.Extension;
-
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.AliyunClientFactory;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.Status;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.StepUtils;
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;
-
-import javax.annotation.Nonnull;
+import edu.umd.cs.findbugs.annotations.NonNull;
 import java.util.List;
 import java.util.Set;
 
@@ -67,7 +66,7 @@ public class OosExecuteNotifyStep extends Step {
             return "oosExecuteNotify";
         }
 
-        @Nonnull
+        @NonNull
         @Override
         public String getDisplayName() {
             return "notify oos Execute";
@@ -79,7 +78,7 @@ public class OosExecuteNotifyStep extends Step {
         private static final long serialVersionUID = -6033716865337394259L;
         private final transient OosExecuteNotifyStep step;
 
-        protected Execution(@Nonnull StepContext context, OosExecuteNotifyStep step) {
+        protected Execution(@NonNull StepContext context, OosExecuteNotifyStep step) {
             super(context);
             this.step = step;
         }
