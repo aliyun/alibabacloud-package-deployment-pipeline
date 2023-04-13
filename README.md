@@ -45,12 +45,5 @@ Oos template pause task execution next step,like Approve or Cancelled.
 oosExecuteNotify(executeId: "exec-XXXXXXXXX", region: 'cn-hangzhou', notifyType: "Approve")
 ```
 
-# Changelog
 
-## 1.0
 
-* first release containing multiple pipeline steps and global configuration.
-* Add golbal configuration
-* Add `ossUploadAndOosExec` step
-* Add `oosStatusQuery` step
-* Add `oosExecuteNotify` step

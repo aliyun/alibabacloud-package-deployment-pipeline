@@ -1,8 +1,6 @@
-package com.aliyun.jenkins;
+package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
 
 import com.alibaba.fastjson.JSON;
-import com.aliyun.jenkins.utils.AliyunClientFactory;
-import com.aliyun.jenkins.utils.StepUtils;
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.model.*;
 import com.aliyuncs.IAcsClient;
@@ -15,22 +13,18 @@ import hudson.FilePath;
 import hudson.Util;
 import hudson.model.Run;
 import hudson.model.TaskListener;
-import hudson.security.Permission;
 import hudson.util.FormValidation;
 import hudson.util.ListBoxModel;
-import jenkins.model.Jenkins;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.AliyunClientFactory;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.StepUtils;
+import edu.umd.cs.findbugs.annotations.NonNull;
 import org.apache.commons.lang.StringUtils;
-
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.interceptor.RequirePOST;
-
-import javax.annotation.Nonnull;
-import javax.servlet.ServletException;
 import java.io.*;
 import java.util.*;
-
 /**
  * This class is a  pipeline step:
  * 1.compress specific directory
@@ -154,7 +148,7 @@ public class OssUploadAndOosExecStep extends Step {
             return "ossUploadAndOosExec";
         }
 
-        @Nonnull
+        @NonNull
         @Override
         public String getDisplayName() {
             return "OSS upload built project and OOS execute";
@@ -229,7 +223,7 @@ public class OssUploadAndOosExecStep extends Step {
         private static final long serialVersionUID = 1L;
         private final transient OssUploadAndOosExecStep step;
 
-        protected Execution(@Nonnull StepContext context, OssUploadAndOosExecStep step) {
+        protected Execution(@NonNull StepContext context, OssUploadAndOosExecStep step) {
             super(context);
             this.step = step;
         }

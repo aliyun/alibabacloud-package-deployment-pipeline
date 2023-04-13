@@ -1,16 +1,14 @@
-package com.aliyun.jenkins;
+package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
 
-import com.aliyun.jenkins.utils.AliyunClientFactory;
-import com.aliyun.jenkins.utils.StepUtils;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.oos.model.v20190601.ListExecutionsRequest;
 import com.aliyuncs.oos.model.v20190601.ListExecutionsResponse;
 import hudson.Extension;
-
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.AliyunClientFactory;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.StepUtils;
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;
-
-import javax.annotation.Nonnull;
+import edu.umd.cs.findbugs.annotations.NonNull;
 import java.util.List;
 import java.util.Set;
 
@@ -60,7 +58,7 @@ public class OosStatusQueryStep extends Step {
             return "oosStatusQuery";
         }
 
-        @Nonnull
+        @NonNull
         @Override
         public String getDisplayName() {
             return "query oos execute status";
@@ -72,7 +70,7 @@ public class OosStatusQueryStep extends Step {
         private static final long serialVersionUID = 175374543031461563L;
         private final transient OosStatusQueryStep step;
 
-        protected Execution(@Nonnull StepContext context, OosStatusQueryStep step) {
+        protected Execution(@NonNull StepContext context, OosStatusQueryStep step) {
             super(context);
             this.step = step;
         }
