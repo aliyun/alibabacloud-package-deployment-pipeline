@@ -202,6 +202,7 @@ public class OssUploadAndOosExecStep extends Step {
         }
 
         @RequirePOST
+        @SuppressWarnings("lgtm[jenkins/no-permission-check]")
         public FormValidation doCheckObjectName(@QueryParameter String objectName) {
             if (objectName.startsWith("/"))
                 return FormValidation.error("objectName can not start with '/'");

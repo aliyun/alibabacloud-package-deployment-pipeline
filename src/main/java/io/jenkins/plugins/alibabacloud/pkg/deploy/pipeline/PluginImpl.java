@@ -17,6 +17,7 @@ import org.kohsuke.stapler.StaplerRequest;
 @Extension
 @Symbol("pipelineStepsAliyun")
 public class PluginImpl extends GlobalConfiguration {
+    @SuppressWarnings("lgtm[jenkins/plaintext-storage]")
     private String accessKeyId;
     private Secret accessKeySecret;
 
