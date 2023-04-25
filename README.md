@@ -1,6 +1,3 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jenkinsci/pipeline-aws-plugin)
-[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/pipeline-aws-plugin/master)](https://ci.jenkins.io/job/Plugins/job/pipeline-aws-plugin/job/master/)
-
 # Features
 
 This plugins adds Jenkins pipeline steps to interact with the Aliyun OSS and OOS API.
@@ -8,8 +5,6 @@ This plugins adds Jenkins pipeline steps to interact with the Aliyun OSS and OOS
 * [ossUploadAndOosExec](#ossUploadAndOosExec)
 * [oosStatusQuery](#oosStatusQuery)
 * [oosExecuteNotify](#oosExecuteNotify)
-
-[**see the changelog for release information**](#changelog)
 
 # Primary/Agent setups
 
