@@ -1,4 +1,4 @@
-package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
+package io.jenkins.plugins.alibabacloud.pkg.deploy;
 
 import com.alibaba.fastjson.JSON;
 import com.aliyun.oss.OSS;
@@ -15,9 +15,10 @@ import hudson.model.Run;
 import hudson.model.TaskListener;
 import hudson.util.FormValidation;
 import hudson.util.ListBoxModel;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.AliyunClientFactory;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.StepUtils;
+
 import edu.umd.cs.findbugs.annotations.NonNull;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.utils.AliyunClientFactory;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.utils.StepUtils;
 import org.apache.commons.lang.StringUtils;
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;

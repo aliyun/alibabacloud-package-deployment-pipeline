@@ -1,5 +1,4 @@
-package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
-
+package io.jenkins.plugins.alibabacloud.pkg.deploy;
 
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.oos.model.v20190601.CancelExecutionRequest;
@@ -7,9 +6,9 @@ import com.aliyuncs.oos.model.v20190601.ListExecutionsRequest;
 import com.aliyuncs.oos.model.v20190601.ListExecutionsResponse;
 import com.aliyuncs.oos.model.v20190601.NotifyExecutionRequest;
 import hudson.Extension;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.AliyunClientFactory;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.Status;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils.StepUtils;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.utils.AliyunClientFactory;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.utils.Status;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.utils.StepUtils;
 import org.jenkinsci.plugins.workflow.steps.*;
 import org.kohsuke.stapler.DataBoundConstructor;
 import edu.umd.cs.findbugs.annotations.NonNull;

@@ -1,4 +1,4 @@
-package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline;
+package io.jenkins.plugins.alibabacloud.pkg.deploy;
 
 import hudson.Extension;
 import hudson.ExtensionList;

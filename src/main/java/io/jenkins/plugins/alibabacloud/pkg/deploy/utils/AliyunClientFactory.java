@@ -1,11 +1,11 @@
-package io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.utils;
+package io.jenkins.plugins.alibabacloud.pkg.deploy.utils;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.profile.DefaultProfile;
-import io.jenkins.plugins.alibabacloud.pkg.deploy.pipeline.PluginImpl;
+import io.jenkins.plugins.alibabacloud.pkg.deploy.PluginImpl;
 
 /**
  * product oos client and oss client.
